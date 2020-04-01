@@ -1,6 +1,29 @@
 <html>
 <body bgcolor="#E6E6FA">
 <meta charset=utf-8 />
+	
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h2>.</h2>
+<p>.</p>
+
+<button onclick="myFunction()">Toggle dark mode</button>
+
 <div style="float:center">
 <div align=center>
 
@@ -519,6 +542,13 @@
 <a href='http://vivlos.net/audio/Kaini/27_APOKALYPSH IOANNOY/APOKALYPSH IOANNOY_22.mp3' style='display:none;'> Κ.Δ. -Δημοτική- ΑΠΟΚΑΛΥΨΗ ΙΩΑΝΝΗ</a>
 <a href='http://vivlos.net/audio/Kaini/_ANAGNOSTHS/THE READER ENG.mp3' style='display:none;'> Κ.Δ. -Δημοτική- THE READER</a>
 <a href='http://vivlos.net/audio/Kaini/_ANAGNOSTHS/__O ANAGNOSTHS.mp3' style='display:none;'> Κ.Δ. -Δημοτική- Ο ΑΝΑΓΝΩΣΤΗΣ</a>
-	
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
 </body>
 </html>
